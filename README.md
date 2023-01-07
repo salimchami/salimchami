@@ -13,7 +13,7 @@ I am a Developer/Technical Architect from France. I'm currently working for **[S
 - 🧩 Apart from coding, I love biking and music.
 
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=salimchami&theme=nord&no-bg=true&no-frame=true&row=2&column=3)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=salimchami&theme=nord&no-bg=true&no-frame=true&row=2&column=3)](https://github.com/salimchami/github-profile-trophy)
 
 ### Languages and Tools:
 

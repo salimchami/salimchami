@@ -19,7 +19,6 @@ I am a Developer/Technical Architect from France. I'm currently working for **[S
 
 <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
 <a href="https://www.typescript.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg" alt="java" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="[https://www.vectorlogo.zone/util/preview.html?image=/logos/python/python-icon.svg]" alt="python" width="40" height="40"/> </a>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
 <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/></a>
 <a href="https://groovy-lang.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/groovy-lang/groovy-lang-ar21.svg" alt="scala" width="40" height="40"/></a>

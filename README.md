@@ -4,7 +4,7 @@ I am a Developer/Technical Architect from France. I'm currently working for **[S
 
 ![Profile Views](https://komarev.com/ghpvc/?username=salimchami&label=Profile%20views&color=0e75b6&style=flat)
 
-- 🌱 I'm currently learning Python and Machine Learning.
+- 🌱 I'm currently learning Machine Learning.
 
 
 - 💬 Ask me about **Java**, **Typescript**, **Devops**, **Software Craftsmanship**.

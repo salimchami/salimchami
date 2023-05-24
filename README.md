@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Salim!
 
-I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)** building applications for one of our customers [EDF](https://edf.fr).
+I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)**.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=salimchami&label=Profile%20views&color=0e75b6&style=flat)
 

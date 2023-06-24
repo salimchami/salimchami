@@ -1,0 +1,9 @@
+{
+  "global":  {
+    "i18n": {
+      "language": "Langue",
+      "fr": "Français",
+      "en": "English"
+    }
+  }
+}

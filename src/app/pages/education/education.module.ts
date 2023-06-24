@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { EducationRoutingModule } from './education-routing.module';
 import { EducationComponent } from './education.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 
 @NgModule({
@@ -11,7 +12,10 @@ import { EducationComponent } from './education.component';
   ],
   imports: [
     CommonModule,
-    EducationRoutingModule
+    EducationRoutingModule,
+    TranslateModule.forChild({
+      extend: true
+    })
   ]
 })
 export class EducationModule { }

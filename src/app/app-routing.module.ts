@@ -24,7 +24,8 @@ const routes: Routes = [
   }, {
     path: 'blog',
     loadChildren: () => import('./pages/blog/blog.module').then(m => m.BlogModule)
-  }];
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {useHash: true})],

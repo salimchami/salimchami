@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { SkillsRoutingModule } from './skills-routing.module';
 import { SkillsComponent } from './skills.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 
 @NgModule({
@@ -11,7 +12,10 @@ import { SkillsComponent } from './skills.component';
   ],
   imports: [
     CommonModule,
-    SkillsRoutingModule
+    SkillsRoutingModule,
+    TranslateModule.forChild({
+      extend: true
+    })
   ]
 })
 export class SkillsModule { }

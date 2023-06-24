@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ExperienceRoutingModule } from './experience-routing.module';
 import { ExperienceComponent } from './experience.component';
+import {TranslateModule} from "@ngx-translate/core";
 
 
 @NgModule({
@@ -11,7 +12,10 @@ import { ExperienceComponent } from './experience.component';
   ],
   imports: [
     CommonModule,
-    ExperienceRoutingModule
+    ExperienceRoutingModule,
+    TranslateModule.forChild({
+      extend: true
+    })
   ]
 })
 export class ExperienceModule { }

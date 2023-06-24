@@ -1,8 +1,13 @@
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-          aria-expanded="false">{{'global.i18n.' + currentLang|translate}}</button>
-  <ul class="dropdown-menu dropdown-menu-dark">
-    <li *ngFor="let language of languages"><a href="#" class="dropdown-item french"
-           data-lang="{{'global.i18n.'+language|translate}}">{{'global.i18n.' + language|translate}}</a></li>
-  </ul>
+<div ngbDropdown class="d-inline-block">
+  <button ngbDropdownToggle class="btn btn-secondary" type="button">
+    <fa-icon [icon]="faLanguage"></fa-icon>
+    {{'i18n.' + currentLang|translate}}
+  </button>
+  <div class="dropdown-menu-dark" ngbDropdownMenu aria-labelledby="translate">
+    <button ngbDropdownItem *ngFor="let language of languages"
+     (click)="changeLanguage(language)">
+      <a href="#" class="dropdown-item"
+         data-lang="{{'i18n.'+language|translate}}">{{'i18n.' + language|translate}}</a>
+    </button>
+  </div>
 </div>

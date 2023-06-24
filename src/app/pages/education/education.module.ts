@@ -13,9 +13,7 @@ import {TranslateModule} from "@ngx-translate/core";
   imports: [
     CommonModule,
     EducationRoutingModule,
-    TranslateModule.forChild({
-      extend: true
-    })
+    TranslateModule.forChild()
   ]
 })
 export class EducationModule { }

@@ -12,15 +12,11 @@ $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1
 C
 src/assets/.gitkeep,1\5\15486ca1b9119e61b9dda2d7459cc2d05825417d
 X
-(src/app/pages/about/about.component.html,6\b\6bd39957452d85061e54496686f5f0ec73f4215e
-X
 (src/app/pages/about/about.component.scss,4\7\4799a35a7babaa9f81986f96d7462da2383689b1
 [
 +src/app/pages/about/about.component.spec.ts,9\6\969e54ac8759ccc6c19df6e4eb339ceddecbbd93
 V
 &src/app/pages/about/about.component.ts,a\b\ab92d0b8c3210c0beb074377204557e169bda7c4
-[
-+src/app/pages/about/about-routing.module.ts,4\d\4dc286f71d99b1383e7133d41c4cf5fe39224236
 J
 src/app/app.component.html,0\6\06895b2dfff011115a8eded7e3fad29788965566
 J
@@ -33,10 +29,6 @@ V
 &src/app/pages/blog/blog.component.scss,5\f\5fa11565cfb7b25049187279c2665ad46101e694
 Y
 )src/app/pages/blog/blog.component.spec.ts,8\2\82d731701d644871752072f35f2d441deb979faf
-T
-$src/app/pages/blog/blog.component.ts,4\7\47ccb79369d0dd2a75d1a8c18749550a0a3cf33a
-Y
-)src/app/pages/blog/blog-routing.module.ts,1\7\17bf34ebf35da1c0621ecfddd10ddde9f9c476a9
 `
 0src/app/pages/education/education.component.html,d\4\d4678ce523f56b7bf17667e9b96be58a20544f37
 `
@@ -47,8 +39,6 @@ c
 .src/app/pages/education/education.component.ts,0\5\053c914e398b219c2ae289548b67a3ce7fbe8ab1
 c
 3src/app/pages/education/education-routing.module.ts,5\4\5483981a4c5864ddd0148c5fb0901052d6a33e47
-@
-src/i18n/en.json,9\b\9b495a3c142bc8cca734d3c5b77126bb4a354d36
 b
 2src/app/pages/experience/experience.component.html,c\2\c20920c9cf9fa728032433433dea88e4650c8454
 b
@@ -81,8 +71,6 @@ E
 src/styles/styles.css,c\b\cbdabcaec569562eb58e6e38bb9bb55d8670ce4d
 ?
 src/styles.scss,6\a\6a36a191b6d613ce902a6e1beb58b65e8a5136ab
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

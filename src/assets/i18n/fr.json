@@ -1,9 +1,13 @@
 {
-  "global":  {
-    "i18n": {
-      "language": "Langue",
-      "fr": "Français",
-      "en": "English"
-    }
+  "profile": {
+    "first-name": "Salim",
+    "last-name": "CHAMI",
+    "email": "contact@salimchami.net",
+    "presentation": "Développeur craft / Architecte technique, je suis passionné par les nouvelles technologies. Je suis également un grand fan de musique et vélo."
+  },
+  "i18n": {
+    "language": "Langue",
+    "fr": "Français",
+    "en": "English"
   }
 }

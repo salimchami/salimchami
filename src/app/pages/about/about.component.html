@@ -1,13 +1,13 @@
 <section class="resume-section" id="about">
   <div class="resume-section-content">
-    <h1 class="mb-0">
-      Salim
-      <span class="text-primary">CHAMI</span>
-    </h1>
+    <h2 class="mb-0">
+      {{'profile.first-name'|translate}}
+      <span class="text-primary">{{'profile.last-name'|translate}}</span>
+    </h2>
     <div class="subheading mb-5">
-      <a href="mailto:name@email.com">contact@salimchami.net</a>
+      <a [href]="'mailto:' + ('profile.email'|translate)">{{'profile.email'|translate}}</a>
     </div>
-    <p class="lead mb-5">I am ...</p>
+    <p class="lead mb-5">{{'profile.presentation'|translate}}</p>
     <div class="social-icons">
       <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
       <a class="social-icon" href="#"><i class="fab fa-github"></i></a>

@@ -1,9 +1,13 @@
 {
-  "global": {
-    "i18n": {
-      "language": "Language",
-      "fr": "Français",
-      "en": "English"
-    }
+  "profile": {
+    "first-name": "Salim",
+    "last-name": "CHAMI",
+    "email": "contact@salimchami.net",
+    "presentation": ""
+  },
+  "i18n": {
+    "language": "Language",
+    "fr": "Français",
+    "en": "English"
   }
 }

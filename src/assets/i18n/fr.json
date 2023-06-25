@@ -560,7 +560,90 @@
     }
   },
   "experience": {
-    "title": "Expérience"
+    "title": "Expérience",
+    "list": {
+      "education-1": {
+        "title": "Tech lead",
+        "company": "Fnac Darty",
+        "companyLink": "https://www.fnacdarty.com/",
+        "companyLogo": "https://vectorwiki.com/images/HuEDd__logo-fnac-darty.svg",
+        "location": "Paris, France",
+        "startDate": "Juin 2023",
+        "endDate": ""
+      },
+      "education-2": {
+        "title": "Coding architect",
+        "company": "EDF",
+        "companyLink": "https://www.edf.fr/",
+        "companyLogo": "https://logos-marques.com/wp-content/uploads/2022/07/EDF-Logo-1536x966.png",
+        "location": "Paris, France",
+        "startDate": "Janvier 2020",
+        "endDate": "Mai 2023"
+      },
+      "education-3": {
+        "title": "Coach Craft",
+        "company": "SQLI",
+        "companyLink": "https://www.sqli.com/int-en",
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/e/ea/SQLI_DX_LOGO_violet.png",
+        "location": "Rabat, Maroc",
+        "startDate": "Octobre 2019",
+        "endDate": "Décembre 2019"
+      },
+      "education-4": {
+        "title": "Coding architect",
+        "company": "Société Générale",
+        "companyLink": "https://sg.fr",
+        "companyLogo": "https://www.vectorlogo.zone/logos/societegenerale/societegenerale-icon.svg",
+        "location": "Paris, France",
+        "startDate": "Juin 2016",
+        "endDate": "Juin 2019"
+      },
+      "education-5": {
+        "title": "Tech lead",
+        "company": "TotalEnergies",
+        "companyLink": "https://www.totalenergies.fr/",
+        "companyLogo": "https://vectorwiki.com/images/ePBXc__totalenergies.svg",
+        "location": "Paris, France",
+        "startDate": "Octobre 2015",
+        "endDate": "Mai 2016"
+      },
+      "education-6": {
+        "title": "Ingénieur de développement",
+        "company": "LCL",
+        "companyLink": "https://lcl.fr",
+        "companyLogo": "https://upload.wikimedia.org/wikipedia/fr/thumb/0/0b/Lcl_logo.svg/258px-Lcl_logo.svg.png?20210313135726",
+        "location": "Paris, France",
+        "startDate": "Janvier 2014",
+        "endDate": "Octobre 2015"
+      },
+      "education-7": {
+        "title": "Ingénieur de développement",
+        "company": "Société Générale",
+        "companyLink": "https://wholesale.banking.societegenerale.com/en/",
+        "companyLogo": "https://www.vectorlogo.zone/logos/societegenerale/societegenerale-icon.svg",
+        "location": "Paris, France",
+        "startDate": "Avril 2012",
+        "endDate": "Janvier 2014"
+      },
+      "education-8": {
+        "title": "Ingénieur de développement",
+        "company": "Imperial Tobacco",
+        "companyLink": "https://www.imperialbrandsplc.com/",
+        "companyLogo": "https://companieslogo.com/img/orig/IMB.L-f673088e.png?t=1596195528",
+        "location": "Paris, France",
+        "startDate": "Septembre 2008",
+        "endDate": "Septembre 2011"
+      },
+      "education-9": {
+        "title": "Assistant d'éducation",
+        "company": "Lycée Descartes",
+        "companyLink": "https://www.lycee-descartes.ac.ma/",
+        "companyLogo": "https://media.licdn.com/dms/image/C560BAQEg4336oZCVtA/company-logo_200_200/0/1644289834119?e=1695859200&v=beta&t=Ve8v9g65hoZQqs1n8F8j9a3oFApvZVMf3ODmPAnlPPQ",
+        "location": "Rabat, Morocco",
+        "startDate": "Juin 2000",
+        "endDate": "Juillet 2005"
+      }
+    }
   },
   "i18n": {
     "language": "Langue",

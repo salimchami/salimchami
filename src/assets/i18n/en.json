@@ -114,8 +114,50 @@
       "list": {
         "skill-1": {
           "name": "Cloud Computing",
-          "icon": "",
-          "link": "",
+          "icon": "https://www.vectorlogo.zone/logos/cncfio/cncfio-icon.svg",
+          "link": "https://www.cncf.io/",
+          "level": "80"
+        },
+        "skill-2": {
+          "name": "AWS",
+          "icon": "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+          "link": "https://aws.amazon.com/",
+          "level": "70"
+        },
+        "skill-3": {
+          "name": "Azure",
+          "icon": "https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg",
+          "link": "https://azure.microsoft.com",
+          "level": "30"
+        },
+        "skill-4": {
+          "name": "Kubernetes",
+          "icon": "https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg",
+          "link": "https://kubernetes.io",
+          "level": "85"
+        },
+        "skill-5": {
+          "name": "Hexagonal architecture",
+          "icon": "https://iconape.com/wp-content/files/iw/374271/svg/374271.svg",
+          "link": "https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)",
+          "level": "100"
+        },
+        "skill-6": {
+          "name": "Layered architecture",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX1H3kU4mjIsh9_Lae9ERcDwGtVQAvIZhGdw&usqp=CAU",
+          "link": "https://en.wikipedia.org/wiki/Multitier_architecture",
+          "level": "100"
+        },
+        "skill-7": {
+          "name": "Command Query Responsibility Segregation (CQRS)",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9Pbka_WngEFP4NBlaujrBeFdialBOwVaCg&usqp=CAU",
+          "link": "https://en.wikipedia.org/wiki/Domain-driven_design#Command_Query_Responsibility_Segregation",
+          "level": "100"
+        },
+        "skill-8": {
+          "name": "Event driven architecture",
+          "icon": "https://w7.pngwing.com/pngs/233/334/png-transparent-domain-driven-design-event-store-event-sourcing-computer-icons-github-logo-monochrome-black-thumbnail.png",
+          "link": "https://en.wikipedia.org/wiki/Event-driven_architecture",
           "level": "80"
         }
       }

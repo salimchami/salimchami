@@ -84,7 +84,16 @@ export class Skills {
   }
 
   static architecture() {
-    return new Skills("skills.architecture.title", []);
+    return new Skills("skills.architecture.title", [
+      new Skill("skills.architecture.list.skill-1.name", "skills.architecture.list.skill-1.icon", "skills.architecture.list.skill-1.link", "skills.architecture.list.skill-1.level"),
+      new Skill("skills.architecture.list.skill-2.name", "skills.architecture.list.skill-2.icon", "skills.architecture.list.skill-2.link", "skills.architecture.list.skill-2.level"),
+      new Skill("skills.architecture.list.skill-3.name", "skills.architecture.list.skill-3.icon", "skills.architecture.list.skill-3.link", "skills.architecture.list.skill-3.level"),
+      new Skill("skills.architecture.list.skill-4.name", "skills.architecture.list.skill-4.icon", "skills.architecture.list.skill-4.link", "skills.architecture.list.skill-4.level"),
+      new Skill("skills.architecture.list.skill-5.name", "skills.architecture.list.skill-5.icon", "skills.architecture.list.skill-5.link", "skills.architecture.list.skill-5.level"),
+      new Skill("skills.architecture.list.skill-6.name", "skills.architecture.list.skill-6.icon", "skills.architecture.list.skill-6.link", "skills.architecture.list.skill-6.level"),
+      new Skill("skills.architecture.list.skill-7.name", "skills.architecture.list.skill-7.icon", "skills.architecture.list.skill-7.link", "skills.architecture.list.skill-7.level"),
+      new Skill("skills.architecture.list.skill-8.name", "skills.architecture.list.skill-8.icon", "skills.architecture.list.skill-8.link", "skills.architecture.list.skill-8.level"),
+    ]);
   }
 
   static tests() {

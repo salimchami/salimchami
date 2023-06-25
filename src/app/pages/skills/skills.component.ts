@@ -19,6 +19,7 @@ export class SkillsComponent {
   operatingSystems: Skills = Skills.operatingSystems()
   skills = [
     this.methods,
+    this.architecture,
     this.languages,
     this.frameworks,
     this.tests,

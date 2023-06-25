@@ -6,9 +6,22 @@
       <div class="flex-grow-1">
         <h3 class="mb-0">{{experience.title|translate}}</h3>
         <div class="subheading mb-3">{{experience.location|translate}}</div>
-        <p><a href="{{experience.companyLink|translate}}" target="_blank">{{experience.company|translate}}</a></p>
+        <p>
+          <a href="{{experience.companyLink|translate}}" target="_blank">
+            <img [ngSrc]="experience.companyLogo|translate" width="80" height="80" />
+          </a>
+          <br />
+        <span>{{experience.company|translate}}</span>
+        </p>
       </div>
-      <div class="flex-shrink-0"><span class="text-primary">{{experience.startDate|translate}} - {{experience.endDate|translate}}</span></div>
+      <div class="flex-shrink-0">
+        <div class="text-primary">
+          <div *ngIf="!!(experience.endDate|translate)?.length">{{experience.startDate|translate}}
+            - {{experience.endDate|translate}}</div>
+          <div
+            *ngIf="!(experience.endDate|translate)?.length">{{'global.from'|translate}} {{experience.startDate|translate}}</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

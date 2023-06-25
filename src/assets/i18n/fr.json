@@ -1,9 +1,65 @@
 {
-  "profile": {
-    "first-name": "Salim",
-    "last-name": "CHAMI",
-    "email": "contact@salimchami.net",
-    "presentation": "Développeur craft / Architecte technique, je suis passionné par les nouvelles technologies. Je suis également un grand fan de musique et vélo."
+  "sidebar": {
+    "about": "À propos",
+    "blog": "Blog",
+    "talks": "Conférences (talks)",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "education": "Formation"
+  },
+  "about": {
+    "firstName": "Salim",
+    "lastName": "CHAMI",
+    "email": "work@salimchami.net",
+    "presentation": "Développeur craft, architecte technique et coach tech, je suis passionné par les nouvelles technologies. Je suis également un grand fan de musique et vélo.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/salim-chami-a205145/",
+      "twitter": "https://twitter.com/salimchami",
+      "github": "https://github.com/salimchami/",
+      "gitlab": "https://gitlab.com/slim0110",
+      "stackoverflow": "https://stackoverflow.com/users/1428467/slim"
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "list": {
+      "education-1": {
+        "name": "Master 2 MIAGE",
+        "description": "Méthodes Informatiques Appliquées à la Gestion des Entreprises",
+        "option": "Réseaux distribués",
+        "location": "IUP MIAGE de Toulouse",
+        "startYear": "2005",
+        "endYear": "2008",
+        "link": "https://miage.ut-capitole.fr/"
+      },
+      "education-2": {
+        "name": "Licence e-MIAGE",
+        "description": "Licence Méthodes Informatiques Appliquées à la Gestion des Entreprises",
+        "option": "",
+        "location": "e-MIAGE",
+        "startYear": "2003",
+        "endYear": "2005",
+        "link": "https://www.e-miage.fr/"
+      },
+      "education-3": {
+        "name": "BTS IG",
+        "description": "Brevet de Technicien Supérieur - Informatique de Gestion",
+        "option": "Développeur d'applications",
+        "location": "CNED",
+        "startYear": "2001",
+        "endYear": "2003",
+        "link": "https://www.cned.fr/"
+      },
+      "education-4": {
+        "name": "BTS CG",
+        "description": "Brevet de Technicien Supérieur - Comptabilité et Gestion",
+        "option": "",
+        "location": "CNED",
+        "startYear": "1999",
+        "endYear": "2001",
+        "link": "https://www.cned.fr/"
+      }
+    }
   },
   "i18n": {
     "language": "Langue",

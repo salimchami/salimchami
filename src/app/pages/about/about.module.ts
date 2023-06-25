@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common';
 import {AboutRoutingModule} from './about-routing.module';
 import {AboutComponent} from './about.component';
 import {TranslateModule} from "@ngx-translate/core";
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import {TranslateModule} from "@ngx-translate/core";
   imports: [
     CommonModule,
     AboutRoutingModule,
-    TranslateModule.forChild()
+    TranslateModule.forChild(),
+    FontAwesomeModule
   ],
   providers: []
 })

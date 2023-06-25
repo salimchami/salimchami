@@ -6,7 +6,7 @@
   <div class="dropdown-menu-dark" ngbDropdownMenu aria-labelledby="translate">
     <button ngbDropdownItem *ngFor="let language of languages"
      (click)="changeLanguage(language)">
-      <a href="#" class="dropdown-item"
+      <a class="dropdown-item"
          data-lang="{{'i18n.'+language|translate}}">{{'i18n.' + language|translate}}</a>
     </button>
   </div>

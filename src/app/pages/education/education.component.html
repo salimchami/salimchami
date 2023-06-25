@@ -1,0 +1,16 @@
+<section class="resume-section" id="education">
+  <div class="resume-section-content">
+    <h2 class="mb-5">{{'education.title'|translate}}</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5"
+         *ngFor="let education of educationList">
+      <div class="flex-grow-1">
+        <h3 class="mb-0">{{education.name|translate}}</h3>
+        <div class="subheading mb-3">{{education.location|translate}}</div>
+        <div>{{education.description|translate}}</div>
+        <div>{{education.option|translate}}</div>
+        <p><a href="{{education.link|translate}}" target="_blank">{{education.link|translate}}</a></p>
+      </div>
+      <div class="flex-shrink-0"><span class="text-primary">{{education.startYear|translate}} - {{education.endYear|translate}}</span></div>
+    </div>
+  </div>
+</section>

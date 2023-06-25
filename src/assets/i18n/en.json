@@ -1,9 +1,203 @@
 {
-  "profile": {
-    "first-name": "Salim",
-    "last-name": "CHAMI",
-    "email": "contact@salimchami.net",
-    "presentation": ""
+  "sidebar": {
+    "about": "About",
+    "blog": "Blog",
+    "talks": "Talks",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education"
+  },
+  "about": {
+    "firstName": "Salim",
+    "lastName": "CHAMI",
+    "email": "work@salimchami.net",
+    "presentation": "Craft developer, technical architect and tech coach, I am passionate about new technologies. I am also a big fan of music and cycling.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/salim-chami-a205145/",
+      "twitter": "https://twitter.com/salimchami",
+      "github": "https://github.com/salimchami/",
+      "gitlab": "https://gitlab.com/slim0110",
+      "stackoverflow": "https://stackoverflow.com/users/1428467/slim"
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": "Languages",
+    "methods": "Methods",
+    "tools": "Tools",
+    "frameworks": "Frameworks",
+    "databases": "Databases",
+    "operatingSystems": "Operating Systems",
+    "miscellaneous": "Miscellaneous",
+    "list": {
+      "skill-1": {
+        "name": "Java",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        "link": "https://www.java.com",
+        "level": "5"
+      },
+      "skill-2": {
+        "name": "Typescript",
+        "icon": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg",
+        "link": "https://www.typescript.com",
+        "level": "Expert"
+      },
+      "skill-3": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-4": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-5": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-6": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-7": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-8": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-9": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-10": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-11": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-12": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-13": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-14": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-15": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-16": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-17": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-18": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-19": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-20": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      },
+      "skill-21": {
+        "name": "Java",
+        "icon": "",
+        "link": "",
+        "level": "Expert"
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "list": {
+      "education-1": {
+        "name": "Master of Science 2 MIAGE",
+        "description": "IT Methods Applied to Business Management (Méthodes Informatiques Appliquées à la Gestion des Entreprises)",
+        "option": "Distributed networks (Réseaux distribués)",
+        "location": "IUP MIAGE of Toulouse",
+        "startYear": "2005",
+        "endYear": "2008",
+        "link": "https://miage.ut-capitole.fr/"
+      },
+      "education-2": {
+        "name": "Bachelor of Science e-MIAGE",
+        "description": "IT Methods Applied to Business Management (Méthodes Informatiques Appliquées à la Gestion des Entreprises)",
+        "option": "",
+        "location": "e-MIAGE",
+        "startYear": "2003",
+        "endYear": "2005",
+        "link": "https://www.e-miage.fr/"
+      },
+      "education-3": {
+        "name": "BTEC Management IT (BTS IG)",
+        "description": "Higher National Diploma Management IT (Brevet de Technicien Supérieur - Informatique de Gestion)",
+        "option": "Application Developer",
+        "location": "CNED",
+        "startYear": "2001",
+        "endYear": "2003",
+        "link": "https://www.cned.fr/"
+      },
+      "education-4": {
+        "name": "BTEC Accounting & Management",
+        "description": "Higher National Diploma - Accounting and Management (Brevet de Technicien Supérieur - Comptabilité et Gestion)",
+        "option": "",
+        "location": "CNED",
+        "startYear": "1999",
+        "endYear": "2001",
+        "link": "https://www.cned.fr/"
+      }
+    }
   },
   "i18n": {
     "language": "Language",

@@ -1,18 +1,19 @@
 <section class="resume-section" id="about">
   <div class="resume-section-content">
     <h2 class="mb-0">
-      {{'profile.first-name'|translate}}
-      <span class="text-primary">{{'profile.last-name'|translate}}</span>
+      {{'about.firstName'|translate}}
+      <span class="text-primary">{{'about.lastName'|translate}}</span>
     </h2>
     <div class="subheading mb-5">
-      <a [href]="'mailto:' + ('profile.email'|translate)">{{'profile.email'|translate}}</a>
+      <a [href]="'mailto:' + ('profile.email'|translate)">{{'about.email'|translate}}</a>
     </div>
-    <p class="lead mb-5">{{'profile.presentation'|translate}}</p>
+    <p class="lead mb-5">{{'about.presentation'|translate}}</p>
     <div class="social-icons">
-      <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
-      <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-      <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+      <a class="social-icon" href="{{'about.social.linkedin'|translate}}" target="_blank"><fa-icon [icon]="faLinkedin"></fa-icon></a>
+      <a class="social-icon" href="{{'about.social.twitter'|translate}}" target="_blank"><fa-icon [icon]="faTwitter"></fa-icon></a>
+      <a class="social-icon" href="{{'about.social.github'|translate}}" target="_blank"><fa-icon [icon]="faGithub"></fa-icon></a>
+      <a class="social-icon" href="{{'about.social.gitlab'|translate}}" target="_blank"><fa-icon [icon]="faGitlab"></fa-icon></a>
+      <a class="social-icon" href="{{'about.social.stackoverflow'|translate}}" target="_blank"><fa-icon [icon]="faStackOverflow"></fa-icon></a>
     </div>
   </div>
 </section>

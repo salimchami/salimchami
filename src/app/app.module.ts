@@ -12,8 +12,7 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {TranslateComponent} from "./components/translate/translate.component";
 import {FormsModule} from "@angular/forms";
-
-// import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {CookieService} from "ngx-cookie-service";
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -42,7 +41,9 @@ export function createTranslateLoader(http: HttpClient) {
     }),
     FormsModule
   ],
-  providers: [],
+  providers: [
+    CookieService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

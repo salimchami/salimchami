@@ -8,12 +8,28 @@
       <a [href]="'mailto:' + ('profile.email'|translate)">{{'about.email'|translate}}</a>
     </div>
     <p class="lead mb-5">{{'about.presentation'|translate}}</p>
+    <p class="lead mb-5">{{'about.employee-of'|translate}}
+      <a [href]="'about.employer-link'|translate">
+        <img [ngSrc]="'about.employer-logo'|translate"
+             alt="{{'about.employer-name'|translate}}"
+             title="{{'about.employer-name'|translate}}"
+             height="50" width="50"></a></p>
     <div class="social-icons">
-      <a class="social-icon" href="{{'about.social.linkedin'|translate}}" target="_blank"><fa-icon [icon]="faLinkedin"></fa-icon></a>
-      <a class="social-icon" href="{{'about.social.twitter'|translate}}" target="_blank"><fa-icon [icon]="faTwitter"></fa-icon></a>
-      <a class="social-icon" href="{{'about.social.github'|translate}}" target="_blank"><fa-icon [icon]="faGithub"></fa-icon></a>
-      <a class="social-icon" href="{{'about.social.gitlab'|translate}}" target="_blank"><fa-icon [icon]="faGitlab"></fa-icon></a>
-      <a class="social-icon" href="{{'about.social.stackoverflow'|translate}}" target="_blank"><fa-icon [icon]="faStackOverflow"></fa-icon></a>
+      <a class="social-icon" href="{{'about.social.linkedin'|translate}}" target="_blank">
+        <fa-icon [icon]="faLinkedin"></fa-icon>
+      </a>
+      <a class="social-icon" href="{{'about.social.twitter'|translate}}" target="_blank">
+        <fa-icon [icon]="faTwitter"></fa-icon>
+      </a>
+      <a class="social-icon" href="{{'about.social.github'|translate}}" target="_blank">
+        <fa-icon [icon]="faGithub"></fa-icon>
+      </a>
+      <a class="social-icon" href="{{'about.social.gitlab'|translate}}" target="_blank">
+        <fa-icon [icon]="faGitlab"></fa-icon>
+      </a>
+      <a class="social-icon" href="{{'about.social.stackoverflow'|translate}}" target="_blank">
+        <fa-icon [icon]="faStackOverflow"></fa-icon>
+      </a>
     </div>
   </div>
 </section>

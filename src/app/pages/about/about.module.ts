@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 
 import {AboutRoutingModule} from './about-routing.module';
 import {AboutComponent} from './about.component';
@@ -14,12 +14,13 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
   exports: [
     AboutComponent
   ],
-  imports: [
-    CommonModule,
-    AboutRoutingModule,
-    TranslateModule.forChild(),
-    FontAwesomeModule
-  ],
+    imports: [
+        CommonModule,
+        AboutRoutingModule,
+        TranslateModule.forChild(),
+        FontAwesomeModule,
+        NgOptimizedImage
+    ],
   providers: []
 })
 export class AboutModule {

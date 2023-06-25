@@ -1,0 +1,29 @@
+<section class="resume-section" id="education">
+  <div class="resume-section-content">
+    <h2 class="mb-5">{{'skills.title'|translate}}</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5"
+         *ngFor="let skill of skills">
+      <div class="flex-grow-1">
+        <table class="table table-hover table-responsive" [attr.aria-labelledby]="skill.title|translate">
+          <thead>
+          <tr>
+            <th colspan="3"><h3>{{skill.title|translate}}</h3></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let item of skill.list">
+            <td style="width: 20%"><img [ngSrc]="item.icon|translate" [alt]="item.name" width="100" height="50"/></td>
+            <td style="width: 40%"><a [href]="item.link|translate" target="_blank">{{item.name|translate}}</a></td>
+            <td style="width: 40%">
+              <div class="meter orange nostripes">
+                <span [ngStyle]="{width: ((item.level|translate) + '%')}"
+                data-toggle="tooltip" data-placement="top" [title]="(item.level|translate) + '%'"></span>
+              </div>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

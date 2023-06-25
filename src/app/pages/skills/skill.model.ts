@@ -3,7 +3,7 @@ export class Skill {
     public name: string,
     public icon: string,
     public link: string,
-    public level: number,
+    public level: string,
   ) {
   }
 }

@@ -16,7 +16,7 @@
     "employee-of": "Je suis actuellement salarié de",
     "employer-link": "https://shodo.io",
     "employer-name": "Shodo",
-    "employer-logo": "/assets/img/shodo-logo.png",
+    "employer-logo": "assets/img/shodo-logo.png",
     "areas-of-expertise": {
       "title": "Domaines d'expertise",
       "area-1": "Reprise de Legacy, Software Craft, Architecture, Java, JavaScript",

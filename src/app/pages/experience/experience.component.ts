@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Experience} from "./experience.model";
 
 @Component({
   selector: 'app-experience',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
+  experiences: Array<Experience> = [
+
+  ];
 
 }

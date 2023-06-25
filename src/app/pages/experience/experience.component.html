@@ -1,0 +1,14 @@
+<section class="resume-section" id="education">
+  <div class="resume-section-content">
+    <h2 class="mb-5">{{'education.title'|translate}}</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5"
+         *ngFor="let experience of experiences">
+      <div class="flex-grow-1">
+        <h3 class="mb-0">{{experience.title|translate}}</h3>
+        <div class="subheading mb-3">{{experience.location|translate}}</div>
+        <p><a href="{{experience.companyLink|translate}}" target="_blank">{{experience.company|translate}}</a></p>
+      </div>
+      <div class="flex-shrink-0"><span class="text-primary">{{experience.startDate|translate}} - {{experience.endDate|translate}}</span></div>
+    </div>
+  </div>
+</section>

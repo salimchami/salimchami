@@ -11,11 +11,20 @@
     "firstName": "Salim",
     "lastName": "CHAMI",
     "email": "work@salimchami.net",
+    "current-location": "Paris, France",
     "presentation": "Craft developer, technical architect and tech coach, I am passionate about new technologies. I am also a big fan of music and cycling.",
     "employee-of": "I'm currently an employee of",
     "employer-link": "https://shodo.io",
     "employer-name": "Shodo",
     "employer-logo": "/assets/img/shodo-logo.png",
+    "areas-of-expertise": {
+      "title": "Areas of expertise",
+      "area-1": "Resumption of Legacy, Software Craft, Architecture, Java, JavaScript",
+      "area-2": "TDD, BDD, DDD, Hexagonal Architecture, CQRS, Event Sourcing, Microservices, Cloud Computing",
+      "area-3": "Technical coaching of development teams (Clean architecture, Craft, Tests, Agility)",
+      "area-4": "Good knowledge of Infra and Cloud",
+      "area-5": "Technical presentations and animations of chapters/guilds/technical communities"
+    },
     "social": {
       "linkedin": "https://www.linkedin.com/in/salim-chami-a205145/",
       "twitter": "https://twitter.com/salimchami",
@@ -198,7 +207,7 @@
       }
     },
     "versioning": {
-      "title": "versioning",
+      "title": "Versioning",
       "list": {
         "skill-1": {
           "name": "Git",

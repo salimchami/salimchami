@@ -559,6 +559,9 @@
       }
     }
   },
+  "experience": {
+    "title": "Experience"
+  },
   "i18n": {
     "language": "Language",
     "fr": "Français",

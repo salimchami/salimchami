@@ -1,5 +1,7 @@
 ## Hi there 👋 I'm Salim!
 
+*Please visit my site for more information **[salimchami.net](https://salimchami.net)*** 
+
 I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)**.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=salimchami&label=Profile%20views&color=0e75b6&style=flat)

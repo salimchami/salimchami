@@ -1,29 +1,45 @@
 <section class="resume-section" id="education">
   <div class="resume-section-content">
     <h2 class="mb-5">{{'skills.title'|translate}}</h2>
-    <div class="d-flex flex-column flex-md-row justify-content-between mb-5"
-         *ngFor="let skill of skills">
-      <div class="flex-grow-1">
-        <table class="table table-hover table-responsive" [attr.aria-labelledby]="skill.title|translate">
-          <thead>
-          <tr>
-            <th colspan="3"><h3>{{skill.title|translate}}</h3></th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let item of skill.list">
-            <td style="width: 20%"><img [ngSrc]="item.icon|translate" [alt]="item.name" width="70" height="50"/></td>
-            <td style="width: 40%"><a [href]="item.link|translate" target="_blank">{{item.name|translate}}</a></td>
-            <td style="width: 40%">
-              <div class="meter orange nostripes">
+    <div ngbAccordion #accordion="ngbAccordion" [closeOthers]="true">
+      <div ngbAccordionItem="{{skill.title}}"
+           *ngFor="let skill of skills; let index = index"
+           [collapsed]="currentSkills != index">
+        <h2 ngbAccordionHeader (click)="accordionToggle(index); accordion.toggle(''+index)">
+          <button ngbAccordionButton><h4>{{skill.title|translate}}</h4></button>
+        </h2>
+        <div ngbAccordionCollapse>
+          <div ngbAccordionBody>
+            <ng-template>
+              <div class="flex-grow-1">
+                <table class="table table-hover table-responsive" [attr.aria-labelledby]="skill.title|translate">
+                  <thead>
+                  <th></th>
+                  </thead>
+                  <tbody>
+                  <tr *ngFor="let item of skill.list">
+                    <td style="width: 20%"><img [ngSrc]="item.icon|translate" [alt]="item.name" width="70" height="50"/>
+                    </td>
+                    <td style="width: 40%"><a [href]="item.link|translate" target="_blank">{{item.name|translate}}</a>
+                    </td>
+                    <td style="width: 40%">
+                      <div class="meter orange nostripes">
                 <span [ngStyle]="{width: ((item.level|translate) + '%')}"
-                data-toggle="tooltip" data-placement="top" [title]="(item.level|translate) + '%'"></span>
+                      data-toggle="tooltip" data-placement="top" [title]="(item.level|translate) + '%'"></span>
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
               </div>
-            </td>
-          </tr>
-          </tbody>
-        </table>
+            </ng-template>
+          </div>
+        </div>
       </div>
     </div>
+    <!--    <button class="btn btn-sm btn-outline-primary me-2" (click)="accordion.toggle('first')">Toggle first</button>-->
+    <!--    <button class="btn btn-sm btn-outline-primary me-2" (click)="accordion.toggle('second')">Toggle second</button>-->
+    <!--    <button class="btn btn-sm btn-outline-primary me-2" (click)="accordion.expandAll()">Expand all</button>-->
+    <!--    <button class="btn btn-sm btn-outline-primary me-2" (click)="accordion.collapseAll()">Collapse all</button>-->
   </div>
 </section>

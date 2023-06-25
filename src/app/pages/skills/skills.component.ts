@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {Skills} from "./skills.model";
+import {CookieService} from "ngx-cookie-service";
 
 @Component({
   selector: 'app-skills',
@@ -7,6 +8,7 @@ import {Skills} from "./skills.model";
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {
+  currentSkills: number;
   architecture: Skills = Skills.architecture();
   versioning: Skills = Skills.versioning();
   servers: Skills = Skills.servers();
@@ -28,4 +30,18 @@ export class SkillsComponent {
     this.versioning,
     this.tools,
     this.operatingSystems];
+
+  constructor(private readonly cookieService: CookieService,) {
+    const lastVisitedSkills = +this.cookieService.get('last-skills-visited');
+    if (lastVisitedSkills) {
+      this.currentSkills = lastVisitedSkills;
+    } else {
+      this.currentSkills = 0;
+    }
+  }
+
+  accordionToggle(index: number) {
+    this.cookieService.set('skills-visited', '' + index);
+    this.currentSkills = index;
+  }
 }

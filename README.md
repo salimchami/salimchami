@@ -1,10 +1,11 @@
 ## Hi there 👋 I'm Salim!
 
-*Please visit my site for more information **[salimchami.net](https://salimchami.net)*** 
+*Please visit my site for more information **<a href="https://salimchami.net">salimchami.net</a>*** 
 
 I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)**.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=salimchami&label=Profile%20views&color=0e75b6&style=flat)
+
 
 - 🌱 I'm currently learning Machine Learning.
 

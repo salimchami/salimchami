@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Salim!
 
-*Please visit my site for more information **<a href="https://salimchami.net">salimchami.net</a>*** 
+*Please visit my site for more information **<a href="https://salimchami.net" target="_blank">salimchami.net</a>*** 
 
 I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)**.
 

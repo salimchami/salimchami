@@ -15,7 +15,7 @@ import {FormsModule} from "@angular/forms";
 import {CookieService} from "ngx-cookie-service";
 
 export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({

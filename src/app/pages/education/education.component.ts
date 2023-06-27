@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {Education} from "./education.model";
+import {TitleService} from "../../shared/title.service";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-education',
@@ -13,4 +15,9 @@ export class EducationComponent {
     new Education('education.list.education-3.name', 'education.list.education-3.description', 'education.list.education-3.option', 'education.list.education-3.location', 'education.list.education-3.startYear', 'education.list.education-3.endYear', 'education.list.education-3.link'),
     new Education('education.list.education-4.name', 'education.list.education-4.description', 'education.list.education-4.option', 'education.list.education-4.location', 'education.list.education-4.startYear', 'education.list.education-4.endYear', 'education.list.education-4.link'),
   ];
+
+  constructor(private readonly titleService: TitleService,
+              private readonly translateService: TranslateService) {
+    titleService.append(translateService.instant('sidebar.education'));
+  }
 }

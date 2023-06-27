@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {Skills} from "./skills.model";
 import {CookieService} from "ngx-cookie-service";
+import {TitleService} from "../../shared/title.service";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-skills',
@@ -31,8 +33,12 @@ export class SkillsComponent {
     this.tools,
     this.operatingSystems];
 
-  constructor(private readonly cookieService: CookieService,) {
+  constructor(
+    private readonly cookieService: CookieService,
+    private readonly titleService: TitleService,
+    private readonly translateService: TranslateService) {
     const lastVisitedSkills = +this.cookieService.get('last-skills-visited');
+    titleService.append(translateService.instant('sidebar.skills'));
     if (lastVisitedSkills) {
       this.currentSkills = lastVisitedSkills;
     } else {

@@ -2,4 +2,4 @@
 
 ## build angular : 
 
-  ```ng build --configuration production --output-path docs --base-href site ```
+  ```ng build --configuration production --output-path docs --base-href / ```

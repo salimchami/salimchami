@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {Experience} from "./experience.model";
+import {TitleService} from "../../shared/title.service";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-experience',
@@ -19,4 +21,8 @@ export class ExperienceComponent {
     new Experience('experience.list.education-9.title', 'experience.list.education-9.company', 'experience.list.education-9.companyLink', 'experience.list.education-9.companyLogo', 'experience.list.education-9.location', 'experience.list.education-9.startDate', 'experience.list.education-9.endDate'),
   ];
 
+  constructor(private readonly titleService: TitleService,
+              private readonly translateService: TranslateService) {
+    titleService.append(translateService.instant('sidebar.experience'));
+  }
 }

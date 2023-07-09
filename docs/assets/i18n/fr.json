@@ -648,6 +648,9 @@
       }
     }
   },
+  "blog": {
+    "title": "Blog"
+  },
   "i18n": {
     "language": "Langue",
     "fr": "Français",

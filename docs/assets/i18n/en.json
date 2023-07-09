@@ -462,7 +462,7 @@
         },
         "skill-2": {
           "name": "Java EE",
-          "icon": "./assets/img/skills/java-ee.jpg",
+          "icon": "./assets/img/skills/java-ee.png",
           "link": "https://www.oracle.com/java/technologies/java-ee-glance.html",
           "level": "95"
         },

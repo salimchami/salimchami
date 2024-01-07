@@ -8,4 +8,5 @@ I am a Developer/Technical Architect from France. I'm currently working for **[S
 
 ### GitHub awards
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=salimchami&theme=nord&no-bg=true&no-frame=true&row=2&column=3)](https://github.com/salimchami/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+

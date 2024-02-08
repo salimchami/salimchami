@@ -47,6 +47,12 @@
           "link": "https://www.java.net",
           "level": "90"
         },
+        "skill-14": {
+          "name": "Kotlin",
+          "icon": "./assets/img/skills/kotlin.svg",
+          "link": "https://www.kotlinlang.org",
+          "level": "80"
+        },
         "skill-2": {
           "name": "Typescript",
           "icon": "./assets/img/skills/typescript.svg",

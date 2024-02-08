@@ -10,6 +10,7 @@ export class Skills {
   static languages() {
     return new Skills("skills.languages.title", [
       new Skill("skills.languages.list.skill-1.name", "skills.languages.list.skill-1.icon", "skills.languages.list.skill-1.link", "skills.languages.list.skill-1.level"),
+      new Skill("skills.languages.list.skill-14.name", "skills.languages.list.skill-14.icon", "skills.languages.list.skill-14.link", "skills.languages.list.skill-14.level"),
       new Skill("skills.languages.list.skill-2.name", "skills.languages.list.skill-2.icon", "skills.languages.list.skill-2.link", "skills.languages.list.skill-2.level"),
       new Skill("skills.languages.list.skill-12.name", "skills.languages.list.skill-12.icon", "skills.languages.list.skill-12.link", "skills.languages.list.skill-12.level"),
       new Skill("skills.languages.list.skill-3.name", "skills.languages.list.skill-3.icon", "skills.languages.list.skill-3.link", "skills.languages.list.skill-3.level"),

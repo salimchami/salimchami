@@ -2,7 +2,7 @@
 
 I am a Developer/Technical Architect from France. I'm currently working for **[SHODO](https://shodo.io)**.
 
-[//]*Please visit my site for more information **<a href="https://salimchami.net" target="_blank">https://salimchami.net</a>*** 
+[//]: *Please visit my site for more information **<a href="https://salimchami.net" target="_blank">https://salimchami.net</a>*** 
 
 ### GitHub awards
 

@@ -562,19 +562,28 @@
       }
     }
   },
-  "experience": {
+  "experiences": {
     "title": "Experience",
     "list": {
-      "education-1": {
+      "experience-9": {
+        "title": "Coding Architect",
+        "company": "42",
+        "companyLink": "https://www.42.tech/",
+        "companyLogo": "./assets/img/logos/42_logo.png",
+        "location": "Paris, France",
+        "startDate": "March 2024",
+        "endDate": ""
+      },
+      "experience-8": {
         "title": "Tech lead",
         "company": "Fnac Darty",
         "companyLink": "https://www.fnacdarty.com/",
         "companyLogo": "./assets/img/logos/fnac-darty.svg",
         "location": "Paris, France",
         "startDate": "June 2023",
-        "endDate": ""
+        "endDate": "February 2024"
       },
-      "education-2": {
+      "experience-7": {
         "title": "Coding architect",
         "company": "EDF",
         "companyLink": "https://www.edf.fr/",
@@ -583,7 +592,7 @@
         "startDate": "January 2020",
         "endDate": "May 2023"
       },
-      "education-3": {
+      "experience-6": {
         "title": "Craft coach",
         "company": "SQLI",
         "companyLink": "https://www.sqli.com/int-en",
@@ -592,7 +601,7 @@
         "startDate": "October 2019",
         "endDate": "December 2019"
       },
-      "education-4": {
+      "experience-5": {
         "title": "Coding architect",
         "company": "Société Générale",
         "companyLink": "https://sg.fr",
@@ -601,8 +610,8 @@
         "startDate": "June 2016",
         "endDate": "June 2019"
       },
-      "education-5": {
-        "title": "Technical leader",
+      "experience-4": {
+        "title": "Tech lead",
         "company": "TotalEnergies",
         "companyLink": "https://www.totalenergies.fr/",
         "companyLogo": "./assets/img/logos/totalenergies.svg",
@@ -610,7 +619,7 @@
         "startDate": "October 2015",
         "endDate": "May 2016"
       },
-      "education-6": {
+      "experience-3": {
         "title": "Software engineer",
         "company": "LCL",
         "companyLink": "https://lcl.fr",
@@ -619,7 +628,7 @@
         "startDate": "January 2014",
         "endDate": "October 2015"
       },
-      "education-7": {
+      "experience-2": {
         "title": "Software engineer",
         "company": "Société Générale CIB",
         "companyLink": "https://wholesale.banking.societegenerale.com/en/",
@@ -628,7 +637,7 @@
         "startDate": "April 2012",
         "endDate": "January 2014"
       },
-      "education-8": {
+      "experience-1": {
         "title": "Software engineer",
         "company": "Imperial Tobacco",
         "companyLink": "https://www.imperialbrandsplc.com/",
@@ -637,7 +646,7 @@
         "startDate": "September 2008",
         "endDate": "September 2011"
       },
-      "education-9": {
+      "experience-0": {
         "title": "Educational assistant",
         "company": "Lycée Descartes",
         "companyLink": "https://www.lycee-descartes.ac.ma/",

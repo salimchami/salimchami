@@ -99,7 +99,7 @@ Option Développement d'applications
   **42 - Paris France**
   ~ **04/2024 - 03/2025**
 
-- Au sein de l'équipe "Platform": Refonte complète du système éducatif de l'école 42 en microservices sur AWS et Kubernetes avec NestJS et Nextjs. 
+Au sein de l'équipe "Platform": Refonte complète du système éducatif de l'école 42 en microservices sur AWS et Kubernetes avec NestJS et Nextjs. 
 - Mise en place de tout le socle technique permettant l'exécution des trois principales applications de 42 (core domain).
 - Tâches de développement (CRM, IAM, Exécution des tests...) 
 
@@ -107,7 +107,7 @@ Option Développement d'applications
 
 ### Tech Lead
   **Darty - Paris France**
-  ~ **05/2024 - 03/2024**
+  ~ **05/2023 - 03/2024**
 
 Au sein de l'équipe commercialité composée de 14 développeur(e)s, accompagnement et gestion d'applications existantes
 
@@ -119,7 +119,7 @@ Au sein de l'équipe commercialité composée de 14 développeur(e)s, accompagne
 
 ### Architecte technique
   **EDF - Paris France**
-  ~ **01/2020 - 05/2022**
+  ~ **01/2020 - 05/2023**
 
 Au sein de la DSIT, nombreuses reprises de "Legacy", accompagnement et développement de projets en plus de nombreux audits applicatifs
 
@@ -130,5 +130,31 @@ Au sein de la DSIT, nombreuses reprises de "Legacy", accompagnement et développ
 - Réalisement de nombreux audits d'applications existantes
 - Travaux sur le socle applicatif technique
 - Animation de communautés
+
+**Environnement**: Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
+
+### Coach Craft
+  **SQLi - Rabat Maroc**
+  ~ **10/2019 - 12/2019**
+
+SQLi est une entreprise de services numériques. Au sein des équipes de développement de SQLi à Rabat, Coaching et formation des équipes de développement autour du craft et de la performance applicative
+
+- Formation de plusieurs équipes d'une semaine chacune en performance applicative
+- Formation de plusieurs équipes sur le développement de qualité (DDD, BDD, TDD, Clean code, Clean architecture) 
+
+### Architecte et coach technique
+  **Société Générale - Paris France**
+  ~ **06/2016 - 06/2019**
+
+La Société Générale est une des 3 principales banques françaises.
+Au sein de BDDF et de l'équipe socle web, évolution du socle technique (portails web: particuliers, professionnels et entreprises), et coaching technique des équipes de développement.
+
+Principales réalisations: 
+- Initialisation de projets: 
+  * Rédaction de documents d'architecture (DAT, DAH, Documents d'exploitation...)
+  * Préparation d'environnements
+- Développements:
+  * 
+
 
 **Environnement**: Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React

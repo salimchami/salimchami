@@ -59,13 +59,13 @@ Option Développement d'applications
 
     *<a href="https://github.com/salimchami/hateoas-at-scale">https://github.com/salimchami/hateoas-at-scale</a>*
 
-[~P3] : **Audit applicatif : Comment le réaliser quel que soit le contexte !**
+[~P3]: **Audit applicatif : Comment le réaliser quel que soit le contexte !**
 
     Conférence sur comment réaliser un audit applicatif.
 
     *<a href="https://www.youtube.com/watch?v=jhZ61vavOgE">https://www.youtube.com/watch?v=jhZ61vavOgE</a>*
 
-[~P4] : **Multiples présentations en entreprise**
+[~P4]: **Multiples présentations en entreprise**
 
     * Architecture immuable
     * Green IT
@@ -93,18 +93,18 @@ Option Développement d'applications
 - Formation et coaching des équipes ;
 - Développement du socle technique (architecture hexagonale, CQRS et event sourcing sur GCP et Kubernetes).
 
-**Environnement**: Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
+**Environnement** : Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
 
 ### Architecte technique
   **42 - Paris France**
   ~ **04/2024 - 03/2025**
 
-Au sein de l'équipe "Platform": Refonte complète du système éducatif de l'école 42 en microservices sur AWS et Kubernetes avec NestJS et Nextjs: 
+Au sein de l'équipe "Platform": Refonte complète du système éducatif de l'école 42 en microservices sur AWS et Kubernetes avec NestJS et Next.js: 
 
 - Mise en place de tout le socle technique permettant l'exécution des trois principales applications de 42 (core domain).
 - Tâches de développement (CRM, IAM, Exécution des tests...) 
 
-**Environnement**: AWS, Kubernetes, Microservices et Micro Frontend, architecture hexagonale, architecture en couche, event sourcing, Kubernetes, Docker, NestJS et NextJS avec NX (Mono Repo)
+**Environnement** : AWS, Kubernetes, Microservices et Micro Frontend, architecture hexagonale, architecture en couche, event sourcing, Kubernetes, Docker, NestJS et Next.js avec NX (Mono Repo)
 
 ### Tech Lead
   **Darty - Paris France**
@@ -116,7 +116,7 @@ Au sein de l'équipe commercialité composée de 14 développeur(e)s, accompagne
 - Préparation de la refonte du SI "Legacy"
 - Coaching des équipes de développement
 
-**Environnement**: Microservices, architecture hexagonale, architecture en couche, event sourcing
+**Environnement** : Microservices, architecture hexagonale, architecture en couche, event sourcing
 
 ### Architecte technique
   **EDF - Paris France**
@@ -133,7 +133,7 @@ Principales réalisations :
   * Applications de gestion de clusters scientifiques (Refonte du SI scientifique et de R&D d'EDF) ayant permis la modernisation de l'infrastructure du SI.
   * Outils pour le socle technique ayant permis aux équipes de développements d'initialiser une application en quelques minutes. 
 
-**Environnement**: Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
+**Environnement** : Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
 
 ### Coach Craft
   **SQLi - Rabat Maroc**
@@ -148,7 +148,7 @@ SQLi est une entreprise de services numériques. Au sein des équipes de dévelo
   **Société Générale - Paris France**
   ~ **06/2016 - 06/2019**
 
-La Société Générale est une des 3 principales banques françaises.
+La Société Générale est une des trois principales banques françaises.
 Au sein de BDDF et de l'équipe socle web, évolution du socle technique (portails web : particuliers, professionnels et entreprises), et coaching technique des équipes de développement.
 
 Principales réalisations : 
@@ -162,28 +162,29 @@ Principales réalisations :
   * Tech Lead Java EE / Angular en mode projet
   * Préparation de la plateforme de tests e2e pour toutes les applications de banque à distance, environ 150 (webdriver.io et Saucelabs)
   * Prise en charge du développement des tests de charge et création d'un portail dédié
-- Développement et amélioration d'outils Cloud/Devops:
+- Développement et amélioration d'outils Cloud/DevOps :
   * Création des images docker du socle et configuration Kubernetes
   * Création de topologies de déploiement sur Alien4Cloud et Ansible Tower
 - Coaching technique des équipes de développement
   * Bonnes pratiques: Clean code, TDD, BDD et DDD
-  * Animation du Chapter Tests et Coanimation du Chapter Craft
+  * Animation du Chapter Tests et Co-animation du Chapter Craft
   * Animation de multiples BBL 
 
-**Environnement**: Microservices, architecture hexagonale / en couches, CQRS, event sourcing, AWS, Kubernetes, Docker, Ansible, Ansible Tower, JAVA EE, Jboss, Spring Boot et React
+**Environnement** : Microservices, architecture hexagonale / en couches, CQRS, event sourcing, AWS, Kubernetes, Docker, Ansible, Ansible Tower, JAVA EE, Jboss, Spring Boot et React
 
 ### Tech Lead AngularJS 
   **Direct Energie (Total Energie) - Paris France**
   ~ **10/2015 - 05/2016**
 
-Total Direct Energie, anciennement Direct Energie, est un fournisseur et producteur français privé d'electricité et de gaz présent sur le marché français depuis 2003.
+Total Direct Energie, anciennement Direct Energie, est un fournisseur et producteur français privé d'électricité et de gaz présent sur le marché français depuis 2003.
 
 Formation de l'équipe de développement à AngularJS et développements.
-Principales réalisations:
+
+Principales réalisations :
 - Formation de l'équipe de développement à AngularJS
 - Développement d'une application de restitution des cours de l'énergie en bourse dédiée aux services d'achat d'énergie (Pricing).
 
-**Environnement**: JHipster, Java 8, Jenkins, Maven, Gulp, Oracle, NodeJS, AngularJS 
+**Environnement** : JHipster, Java 8, Jenkins, Maven, Gulp, Oracle, NodeJS, AngularJS 
 
 ### Titre
   **Entreprise - Ville Pays**

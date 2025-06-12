@@ -59,13 +59,13 @@ Option Développement d'applications
 
     *<a href="https://github.com/salimchami/hateoas-at-scale">https://github.com/salimchami/hateoas-at-scale</a>*
 
-[~P3] : **Audit applicatif : Comment le réaliser quel que soit le contexte !**
+[~P3]: **Audit applicatif : Comment le réaliser quel que soit le contexte !**
 
     Conférence sur comment réaliser un audit applicatif.
 
     *<a href="https://www.youtube.com/watch?v=jhZ61vavOgE">https://www.youtube.com/watch?v=jhZ61vavOgE</a>*
 
-[~P4] : **Multiples présentations en entreprise**
+[~P4]: **Multiples présentations en entreprise**
 
     * Architecture immuable
     * Green IT

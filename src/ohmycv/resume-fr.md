@@ -59,13 +59,13 @@ Option Développement d'applications
 
     *<a href="https://github.com/salimchami/hateoas-at-scale">https://github.com/salimchami/hateoas-at-scale</a>*
 
-[~P3]: **Audit applicatif : Comment le réaliser quel que soit le contexte !**
+[~P3] : **Audit applicatif : Comment le réaliser quel que soit le contexte !**
 
     Conférence sur comment réaliser un audit applicatif.
 
     *<a href="https://www.youtube.com/watch?v=jhZ61vavOgE">https://www.youtube.com/watch?v=jhZ61vavOgE</a>*
 
-[~P4]: **Multiples présentations en entreprise**
+[~P4] : **Multiples présentations en entreprise**
 
     * Architecture immuable
     * Green IT
@@ -186,11 +186,78 @@ Principales réalisations :
 
 **Environnement** : JHipster, Java 8, Jenkins, Maven, Gulp, Oracle, NodeJS, AngularJS 
 
-### Titre
-  **Entreprise - Ville Pays**
-  ~ **06/2016 - 06/2019**
+### Ingénieur de développement Sénior
+  **LCL - Paris France**
+  ~ **01/2014 - 10/2015**
 
-Bla bla.
+Le Crédit Lyonnais est une banque française fondée à Lyon en 1863 connue également sous la marque commerciale LCL depuis 2005.
 
+Evolution du Framework LCL (Equipe Framework) et formation des équipes de développement
 
-**Environnement **: 
+Principales réalisations :
+- Multiples évolutions dans le cadre du Framework LCL
+- Modernisation de l'API de tests proposée dans le Framework
+- Développement de nombreuses API : emailing, JDBC, fonctionnalités web, JODA, Google Guava
+- Développement d'une application de rapports sur le déploiement des applications utilisant le Framework LCL
+
+**Environnement **: SVN, Spring 4, Java 6, Maven, Ant, Jenkins, Junit, Selenium, HTML 5, JavaScript, jQuery, Windows 7, AngularJS, Cordova, Bower, Gulp et Scrum.  
+
+### Ingénieur de développement Sénior
+  **SGCIB - Paris France**
+  ~ **04/2012 - 01/2014**
+
+La SGCIB (Société Générale Corporate and Investment Banking) est l'entité Banque d'investissement du groupe Société Générale
+
+Développements au sein de l'entité leasing bancaire B2B
+
+Principales réalisations :
+- Développement de nombreuses applications autour du leasing bancaire (Extraction BO, Génération de rapports excel...)
+- Développement d'une application (JAVA, JSF, jQuery) de gestion des litiges clients
+- Développement d'une application utilitaire pour une utilisation en interne (POI, Java utils)
+- Animation de BBL (Greenpepper, tests...)
+
+**Environnement **: SVN, spring 3 (Batch, Security), Java EE (JPA, Jaxb, Jsf2), Hibernate, Maven, Ant, Jenkins, Sonar, Oracle 10g (+PL/SQL), Junit, Apache POI, Html5, JavaScript, Twitter Bootstrap, Eclipse, Windows xp et 7, Scrumban.
+
+### Ingénieur de développement
+  **Mondial Assistance - Paris France**
+  ~ **10/2011 - 04/2012**
+
+Mondial Assistance (désormais Allianz Partners France) est une société d'assurance leader en France immatriculée sous le nom AWP France SAS
+
+Développement d'une application de gestion des souscriptions clients
+Principales réalisations : 
+- Refonte et développements JAVA et Javascript
+- Tests automatisés et documentation
+- Mise en homologation
+
+**Environnement **: CVS, Java EE, Hibernate, Struts 2, Selenium
+
+### Ingénieur de développement
+  **Strator - Créteil France**
+  ~ **09/2008 - 09/2011**
+
+Strator (Groupe Imperial Tobacco anciennement Altadis) est une filiale française du groupe Logista, le leader de la distribution de produits et services à destination des commerces de proximité (tabacs et presse) en Europe du Sud.
+
+Participation aux développements de deux applications middleware et de gestion
+
+Principales réalisations :
+- Conception et développement Java et JSF du portail destiné aux buralistes
+- Conception et développement d'un portail de service après-vente permettant la gestion des flux entre les serveurs tiers et les bureaux de tabac.
+- Conception et développement de l'application middleware permettant la communication avec les partenaires de Strator et les applications de gestion et de vente
+
+**Environnement **: Enterprise Architect, UML, PostgreSQL 8, SQL, P/SQL, Hibernate 3, Spring 3, JSF 2, Shell UNIX, JavaScript, XML, JQuery, Richfaces, Springsource, Visual Studio .NET, Scrum (+Jira), Greenpepper, Confluence, Junit, Sonar, Jenkins, Maven, Svn, Eclipse et Ubuntu.
+
+### Assistant d'éducation
+  **Lycée Descartes (AEFE) - Rabat Maroc**
+  ~ **05/2000 - 07/2005**
+
+Le lycée Descartes est le principal lycée français à Rabat en 2000 avec plus de 3000 élèves.
+
+Assistant d'éducation et participation au développement du logiciel de gestion du lycée
+
+Principales réalisations :
+- Täches administratives et de surveillance
+- Animation du club informatique et infographie
+- Développeur stagiaire au service informatique : Développement d'une application de formation continue et participation au développement d'une application de gestion scolaire
+
+**Environnement **: PowerAMC, Java, Swing, Svn, MySQL ET Photoshop

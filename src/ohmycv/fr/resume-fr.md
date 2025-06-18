@@ -133,7 +133,7 @@ Principales réalisations :
   * Applications de gestion de clusters scientifiques (Refonte du SI scientifique et de R&D d'EDF) ayant permis la modernisation de l'infrastructure du SI.
   * Outils pour le socle technique ayant permis aux équipes de développements d'initialiser une application en quelques minutes. 
 
-**Environnement** : Microservices, architecture hexagonale, CQRS, event sourcing, GCP, Kubernetes, spring boot et React
+**Environnement** : Microservices, architecture hexagonale, CQRS, spring boot et React
 
 ### Coach Craft
   **SQLi - Rabat Maroc**
